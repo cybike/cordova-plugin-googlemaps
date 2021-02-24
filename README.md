@@ -1,4 +1,4 @@
-# Cordova GoogleMaps plugin for Android, iOS and Browser v2.8.0
+# Cordova GoogleMaps plugin for Android, iOS and Browser v2.9.0
 
 | Download | Build test (multiple_maps branch)|
 |----------|---------------------------|
