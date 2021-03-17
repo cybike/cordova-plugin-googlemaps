@@ -134,6 +134,7 @@ const int GEOCELL_GRID_SIZE = 4;
 
 }
 - (void)create:(CDVInvokedUrlCommand*)command {
+  NSLog(@"PluginMarkerCluster::create, is main thread: %@", [NSThread isMainThread]);
   NSDictionary *params = [command.arguments objectAtIndex:1];
   NSArray *positionList = [params objectForKey:@"positionList"];
   NSMutableArray *geocellList = [NSMutableArray array];
